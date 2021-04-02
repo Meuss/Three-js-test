@@ -18,7 +18,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 // =====================================================
 // creating the gui for editing data
 // =====================================================
-const gui = new dat.GUI();
+// const gui = new dat.GUI();
 const world = {
   plane: {
     width: 400,
@@ -27,10 +27,10 @@ const world = {
     heightSegments: 50,
   },
 };
-gui.add(world.plane, 'width', 1, 500).onChange(generatePlane);
-gui.add(world.plane, 'height', 1, 500).onChange(generatePlane);
-gui.add(world.plane, 'widthSegments', 1, 100).onChange(generatePlane);
-gui.add(world.plane, 'heightSegments', 1, 100).onChange(generatePlane);
+// gui.add(world.plane, 'width', 1, 500).onChange(generatePlane);
+// gui.add(world.plane, 'height', 1, 500).onChange(generatePlane);
+// gui.add(world.plane, 'widthSegments', 1, 100).onChange(generatePlane);
+// gui.add(world.plane, 'heightSegments', 1, 100).onChange(generatePlane);
 
 function generatePlane() {
   planeMesh.geometry.dispose();
