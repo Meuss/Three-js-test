@@ -1,0 +1,19 @@
+{
+  "name": "three-vite-test",
+  "version": "0.0.0",
+  "description": "Testing Three.js and Vite",
+  "author": "Thomas Miller",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "three": "^0.127.0"
+  }
+}
