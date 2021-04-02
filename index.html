@@ -4,10 +4,38 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Three-js-test</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div
+        class="absolute text-white text-center"
+        style="top: 50%; transform: translate(-50%, -50%); left: 50%"
+      >
+        <h1 class="text-sm uppercase tracking-wide">Having fun with</h1>
+        <p class="text-4xl">Three.js - JavaScript 3D Library</p>
+        <a
+          href="https://github.com/Meuss/Three-js-test"
+          class="border px-4 py-2 rounded-lg text-sm uppercase mt-8 mr-2 hover:bg-white hover:text-gray-800 inline-block transition duration-200"
+        >
+          Source code
+        </a>
+        <a
+          href="https://threejs.org/"
+          class="border px-4 py-2 rounded-lg text-sm uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block transition duration-200"
+        >
+          Threejs.org
+        </a>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
